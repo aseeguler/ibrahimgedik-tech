@@ -1,0 +1,138 @@
+[
+    {
+        "id":"1",
+        "name": "Sokağa Çıkabilir miyim ?",
+        "description": "The story of an algorithm that causes confusion.",
+        "href": "https://sokaga-cikabilirmiyim-7etvxv1pe.vercel.app/",
+        "github":"",
+        "tags": [{
+            "name": "HTML",
+            "bgColor": "#e84118",
+            "color": "#fff"
+          },
+          {
+            "name": "BOOTSTRAP",
+            "bgColor": "#9c88ff",
+            "color": "#fff"
+          },
+          {
+            "name": "JS",
+            "bgColor": "#fbc531",
+            "color": "#2f3640"
+          }
+        ]
+      },
+    {
+        "id": "2",
+        "name": "MyTeam Multipage",
+        "description": "A challenge from Frontend Mentor. I used HTML, SCSS, JQUERY and AOS ANIMATE technologies while developing this project",
+        "href": "https://github.com/ibrahimgediktr/my-team-multipage",
+        "github":"",
+        "tags": [{
+                "name": "HTML",
+                "bgColor": "#e84118",
+                "color": "#fff"
+            },
+            {
+                "name": "SCSS",
+                "bgColor": "#ff7979",
+                "color": "#fff"
+            },
+            {
+                "name": "JQUERY",
+                "bgColor": "#fbc531",
+                "color": "#2f3640"
+            },
+            {
+                "name": "AOS ANIMATE",
+                "bgColor": "#fbc531",
+                "color": "#2f3640"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "React Landing Page",
+        "description": "A challenge from Frontend Mentor. I used React, SASS, Framer-Motion technologies while developing this project",
+        "github":"",
+        "href": "https://bookmarks-react.netlify.app/",
+        "tags": [{
+                "name": "SCSS",
+                "bgColor": "#ff7979",
+                "color": "#fff"
+            },
+            {
+                "name": "REACT.JS",
+                "bgColor": "#3498db",
+                "color": "#fff"
+            },
+            {
+                "name": "FRAMER MOTION",
+                "bgColor": "#b61bcc",
+                "color": "#fff"
+            }
+
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Fylo Landing Page",
+        "description": "A challenge from Frontend Mentor. I used HTML, SCSS, JS, Gulp and AOS ANIMATE technologies while developing this project",
+        "href": "https://bookmarks-react.netlify.app/",
+        "github":"",
+        "tags": [{
+                "name": "HTML",
+                "bgColor": "#e84118",
+                "color": "#fff"
+            },
+            {
+                "name": "SCSS",
+                "bgColor": "#ff7979",
+                "color": "#fff"
+            },
+            {
+                "name": "JS",
+                "bgColor": "#fbc531",
+                "color": "#2f3640"
+            },
+            {
+                "name": "GULP",
+                "bgColor": "#e74c3c",
+                "color": "#fff"
+            },
+            {
+                "name": "AOS ANIMATE",
+                "bgColor": "#fbc531",
+                "color": "#2f3640"
+            }
+        ]
+    },
+      {
+        "id":"5",
+        "name": "Login Component Dark Mode",
+        "description": "A Codier.io Challenge",
+        "href": "https://codier.io/creation/HJBqkyRpP",
+        "github":"",
+        "tags": [{
+            "name": "GULP",
+            "bgColor": "#e74c3c",
+            "color": "#fff"
+          },
+          {
+            "name": "HTML",
+            "bgColor": "#e84118",
+            "color": "#fff"
+          },
+          {
+            "name": "SCSS",
+            "bgColor": "#ff7979",
+            "color": "#fff"
+          },
+          {
+            "name": "JS",
+            "bgColor": "#fbc531",
+            "color": "#2f3640"
+          }
+        ]
+      }
+]

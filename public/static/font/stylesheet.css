@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Quatro Book';
+    src: url('Quatro-Book.woff2') format('woff2'),
+        url('Quatro-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quatro';
+    src: url('Quatro-Regular.woff2') format('woff2'),
+        url('Quatro-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quatro';
+    src: url('Quatro-Light.woff2') format('woff2'),
+        url('Quatro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quatro';
+    src: url('Quatro-Medium.woff2') format('woff2'),
+        url('Quatro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

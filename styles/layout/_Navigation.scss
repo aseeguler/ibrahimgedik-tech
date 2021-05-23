@@ -1,0 +1,88 @@
+.navbar{
+    padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 4;
+    transition: all .25s ease-in-out;
+    &.nav-active{
+        padding: .25rem 0;
+        background: $veryDarkGreen;
+    }
+    .container{
+        position: relative;
+        @media (max-width:768px){
+            display: flex;
+            align-items: center;
+            height: 60px;
+        }
+        .bars{
+            cursor: pointer;
+            display: none;
+            background: transparent;
+            border: none;
+            border-radius: 5px;
+            padding: 0.1rem .25rem;
+            z-index: 3;
+            @media (max-width:768px){
+                display: block;
+            }
+            .bar{
+                width: 35px;
+                height: 4px;
+                background: #faf9c1;
+                margin: .5rem 0;
+                border-radius: 4px;
+            }
+        }
+        .nav-list{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 60px;
+            z-index: 2;
+            @media (max-width:768px){
+                // display: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                flex-direction: column;
+                justify-content: start;
+                padding-top: 6rem;
+                height: 100vh;
+                gap: 8%;
+                width: 100%;
+                background: $veryDarkGreen;
+                transform: translateY(-1000px);
+                opacity: 0;
+                transition: all .3s ease-in-out;
+                &.nav-active{
+                    transform: translateY(0px);
+                    opacity: 1;
+                }
+            }
+            .nav-item{
+                .nav-link{
+                    color: #fff;
+                    padding: 0.6rem 1rem;
+                    transition: $transition;
+                    font-weight: 400;
+                    border-radius: $border5px;
+                    letter-spacing: 1px;
+                    &:hover{
+                        background: rgba(250, 249, 193, 1);
+                        color: $veryDarkGreen;
+                    }
+                    &.active{
+                        background: rgba(250, 249, 193, 1);
+                        color: $veryDarkGreen;
+                    }
+                    @media (max-width:320px){
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}

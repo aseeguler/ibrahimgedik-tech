@@ -1,0 +1,99 @@
+.hero{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    &-title{
+        font-weight: 400;
+        font-weight: 300;
+    }
+    &-subtitle{
+        letter-spacing: 2px;
+        font-family: $fontGothic;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        animation: background 5s linear infinite;
+        background: linear-gradient(
+                90deg,
+                rgba(228, 245, 231, 1) 0%,
+                rgba(244, 242, 105, 1) 25%,
+                rgba(82, 183, 136, 1) 50%,
+                rgba(199, 201, 88, 1) 75%,
+                rgba(78, 170, 76, 1) 100%,
+            );
+            background-size: 1000% 100%;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+    }
+    @keyframes background {
+        0%{background-position:0% 50%}
+        100%{background-position:100% 50%}
+      }
+    &-description{
+        font-weight: 400;
+        letter-spacing: .5px;
+        line-height: 1.5;
+    }
+}
+
+.projects{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    &-heading{
+        margin-bottom: 1rem;
+    }
+    .project-card{
+        margin: 2rem 0;
+        border-radius: 5px;
+        &-container{
+            position: relative;
+        }
+        &-title{
+            font-weight:400;
+        }
+        &-description{
+            margin: 1rem 0;
+            color: $lightGreen;
+            letter-spacing: .5px;
+        }
+        &-tags{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            .badge{
+                display: block;
+                padding: 0.5rem 1rem;
+                border-radius: 5px;
+                &:nth-child(1){
+                    background: #3498db;
+                }
+                &:nth-child(2){
+                    background: #9b59b6;
+                }
+                &:nth-child(3){
+                    background: #f1c40f;
+                }
+                &:nth-child(4){
+                    background: #e74c3c;
+                }
+            }
+        }
+        &-link{
+            display: block;
+            position: absolute;
+            top: -5px;
+            right: 5px;
+            a{
+                margin-left: .5rem;
+            }
+        }
+    }
+}

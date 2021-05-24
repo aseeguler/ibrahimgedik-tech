@@ -1,4 +1,4 @@
-const path = require('path')
+const path = require('path');
 
 module.exports = {
   sassOptions: {
@@ -7,6 +7,8 @@ module.exports = {
   images: {
     domains: ['dl.airtable.com']
   },
-	target: 'serverless',
-
+  env:{
+    id:'local'
+  }
 }
+

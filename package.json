@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "airtable": "^0.11.1",
-    "bootstrap": "^5.0.0-beta3",
     "dotenv": "^10.0.0",
     "next": "10.2.2",
     "querystring": "^0.2.1",

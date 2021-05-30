@@ -4,8 +4,7 @@ import NextImage from "next/image";
 
 function About({ data }) {
   return (
-    <>
-    <div className="about">
+    <section className="about">
       <div className="container">
         <h1 className="about-heading">About Me</h1>
         <div className="about-image">
@@ -47,13 +46,13 @@ function About({ data }) {
           ))}
         </div>
       </div>
-    </div>
-    </>
+    </section>
   );
 }
 
 export async function getStaticProps() {
   const data = await getTable("Photos");
+
   return {
     props: {
       data,

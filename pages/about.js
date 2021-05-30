@@ -15,6 +15,7 @@ function About({ data }) {
             objectFit="cover"
             loading="lazy"
             quality="80"
+            alt="My Profile Picture"
           />
         </div>
         <p className="about-description">

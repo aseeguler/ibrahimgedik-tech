@@ -24,7 +24,9 @@ function Bookmarks({data}) {
     <section className="bookmarks">
         <div className="container">
            <h1 className="bookmarks-heading">Bookmarks</h1>
-           <p className="bookmarks-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ratione alias cum debitis molestias consequatur laborum quae ipsam explicabo perspiciatis.</p>
+           <p className="bookmarks-description">
+           I share with you the things I like while surfing the Internet and the libraries and tools I use in the development environment in here
+           </p>
            <BookmarksSelect handleFilter={handleFilter} filter={filter} />
            <BookmarkList bookmarks={filterByCategory(bookmarks)} />
         </div>

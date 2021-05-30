@@ -47,7 +47,7 @@ function Navigation() {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/writings">
+            <a className="nav-link" href="/bookmarks">
               Bookmarks
             </a>
           </li>

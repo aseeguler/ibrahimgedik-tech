@@ -22,20 +22,20 @@ function Footer() {
         </div>
         <div className="footer-nav-social">
           <div className="social">
-            <a href="https://github.com/ibrahimgediktr" target="_blank" aria-label="İbrahim Gedik Github Account">
+            <a href="https://github.com/ibrahimgediktr" target="_blank" aria-label="İbrahim Gedik Github Account" rel="noopener">
               <AiFillGithub color="#fff" size={23} />
             </a>
-            <a href="https://twitter.com/ibrahimgediktr" target="_blank" aria-label="İbrahim Gedik Twitter Account">
+            <a href="https://twitter.com/ibrahimgediktr" target="_blank" aria-label="İbrahim Gedik Twitter Account" rel="noopener">
               <AiOutlineTwitter color="#fff" size={24} />
             </a>
-            <a href="https://www.linkedin.com/in/ibrahimgedik/" aria-label="İbrahim Gedik Linkedin Account">
+            <a href="https://www.linkedin.com/in/ibrahimgedik/" aria-label="İbrahim Gedik Linkedin Account" rel="noopener">
               <AiFillLinkedin color="#fff" size={24} />
             </a>
-            <a href="https://vsco.co/ibrahimgedik/gallery" aria-label="İbrahim Gedik Vsco.co Account">
+            <a href="https://vsco.co/ibrahimgedik/gallery" aria-label="İbrahim Gedik Vsco.co Account" rel="noopener">
               <SiVsco color="#fff" size={22} />
             </a>
           </div>
-          <a href="mailto:ibrahimgediktc@gmail.com" className="gmail">
+          <a href="mailto:ibrahimgediktc@gmail.com" className="gmail" aria-label="İbrahim Gedik Gmail Account" rel="noopener">
             ibrahimgediktc <span>at</span> gmail <span>dot</span> com
           </a>
         </div>

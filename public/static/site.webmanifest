@@ -1,7 +1,7 @@
 {
     "name": "İbrahim Gedik",
     "short_name": "İG",
-    "description": "Software Developer at Berabet",
+    "description": "Software Developer at Beranet",
     "icons": [
       {
         "src": "/static/img/icon-android-chrome-192x192.png",
@@ -14,8 +14,8 @@
         "type": "image/png"
       }
     ],
-    "background_color": "#FFFFFF",
-    "theme_color": "#FFFFFF",
+    "background_color": "#081C15",
+    "theme_color": "#081C15",
     "display": "standalone",
     "dir": "ltr",
     "lang": "en-US",

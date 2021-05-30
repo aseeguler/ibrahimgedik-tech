@@ -6,7 +6,7 @@ function Hero() {
             <div className="container">
                 <h3 className="hero-title">Hi, I'm</h3>
                 <h1 className="hero-subtitle">ibrahim</h1>
-                <p className="hero-description">I'm a Software Developer, Javascript enthusiast, living in Istanbul, Turkey. I'm currently working at <a rel="ibrahimgedik.tech" href="https://www.beranet.com.tr/" target="_blank"  className="note">Beranet</a> as a Frontend Developer
+                <p className="hero-description">I'm a Software Developer, Javascript enthusiast, living in Istanbul, Turkey. I'm currently working at <a rel="noopener" href="https://www.beranet.com.tr/" target="_blank" aria-label="My Company" className="note">Beranet</a> as a Frontend Developer
                 </p>
                 {/* <p className="hero-description">I'm a passionate self-taught Software Developer based in Istanbul, Turkey. I'm currently working at <a rel="ibrahimgedik.tech" href="https://www.beranet.com.tr/" target="_blank"  className="note">Beranet</a> as a Frontend Developer.</p> */}
             </div>

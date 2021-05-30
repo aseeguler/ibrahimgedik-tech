@@ -15,10 +15,10 @@ function ProjectCard() {
             <div className="project-card" key={index}>
             <div className="project-card-container">
               <div className="project-card-link">
-                <a href={project.Github} className="github-link">
+                <a href={project.Github} className="github-link" aria-label="Project Demo Link">
                 <AiOutlineLink color="#fff" size={30} />
                 </a>
-              <a href={project.Demo} className="demo-link">
+              <a href={project.Demo} className="demo-link" aria-label="Project Github Link">
                 <AiFillGithub color="#fff" size={30} />
                 </a>
               </div>

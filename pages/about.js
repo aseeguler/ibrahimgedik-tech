@@ -18,11 +18,11 @@ function About({ data }) {
           />
         </div>
         <p className="about-description">
-          I'm a passionate self-taught <a href="" className="note">Software Developer</a> and Management Information Systems student based in Istanbul, Turkey. I'm interested in web technologies. I tend to
+          I'm a passionate self-taught <a href="https://www.linkedin.com/in/ibrahimgedik/" aria-label="İbrahim Gedik Linkedin Account" className="note">Software Developer</a> and Management Information Systems student based in Istanbul, Turkey. I'm interested in web technologies. I tend to
           make use of modern web technologies to build websites that look
           awesome.
           <br /> 
-          I'm currently living in Istanbul, Turkey and developing web apps at <a href="" className="note">Beranet</a>
+          I'm currently living in Istanbul, Turkey and developing web apps at <a rel="noopener" href="https://www.beranet.com.tr/" aria-label="My Company" className="note">Beranet</a>
           <br />
 
         </p>
@@ -33,7 +33,7 @@ function About({ data }) {
             <div className="photo" key={item.id}>
               <NextImage
                 src={item.Photo[0].thumbnails.full.url}
-                alt={item.Name}
+                alt="Vsco.co Photos"
                 width="100%"
                 height="100%"
                 objectFit="cover"

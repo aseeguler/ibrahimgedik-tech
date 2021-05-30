@@ -3,9 +3,11 @@ import React from 'react'
 
 function Writings() {
     return (
-        <div>
-            Writings
-        </div>
+        <section className="writings">
+           <div className="container">
+               Writings
+           </div>
+        </section>
     )
 }
 

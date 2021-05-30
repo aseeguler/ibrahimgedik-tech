@@ -34,8 +34,30 @@ class MyDocument extends Document {
           <meta name="twitter:description" content={SiteConfig.description} />
 
           <link href="/static/site.webmanifest" rel="manifest" />
-
-          <link rel="icon" href="/favicon.ico" />
+          <link
+            href="/static/img/apple-touch-icon.png"
+            rel="apple-touch-icon"
+            sizes="180x180"
+          />
+          <link
+            href="/static/img/icon-favicon-32x32.png"
+            rel="icon"
+            sizes="32x32"
+            type="image/png"
+          />
+          <link
+            href="/static/img/icon-favicon-16x16.png"
+            rel="icon"
+            sizes="16x16"
+            type="image/png"
+          />
+          <link
+            color="#23ab67"
+            href="/static/img/icon-safari-pinned-tab.svg"
+            rel="mask-icon"
+          />
+          <meta content="#081C15" name="theme-color" />
+          <meta content="#081C15" name="msapplication-TileColor" />
           
         </Head>
         <body>

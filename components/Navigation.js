@@ -29,30 +29,30 @@ function Navigation() {
   return (
     <nav className="navbar" ref={navbar}>
       <div className="container">
-        <a href="/" className="navbar-brand"></a>
+        <a href="/" className="navbar-brand" aria-label="İbrahim Gedik Logo"></a>
         <ul className="nav-list" ref={navList}>
           <li className="nav-item">
-            <a className="nav-link active" href="/">
+            <a className="nav-link active" href="/" aria-label="Home page">
               Home
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/about">
+            <a className="nav-link" href="/about" aria-label="About page">
               About
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/writings">
+            <a className="nav-link" href="/writings" aria-label="Writings page">
               Writings
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/bookmarks">
+            <a className="nav-link" href="/bookmarks" aria-label="Bookmarks page">
               Bookmarks
             </a>
           </li>
         </ul>
-        <button className="bars" onClick={handleClick}>
+        <button className="bars" onClick={handleClick} aria-label="Mobile Menu Button">
           <div className="bar"></div>
           <div className="bar"></div>
         </button>

@@ -33,7 +33,7 @@ class MyDocument extends Document {
           <meta name="twitter:title" content={SiteConfig.title} />
           <meta name="twitter:description" content={SiteConfig.description} />
 
-          <link href="/static/site.webmanifest" rel="manifest" />
+          <link href="static/site.webmanifest" rel="manifest" />
           <link
             href="/static/img/apple-touch-icon.png"
             rel="apple-touch-icon"

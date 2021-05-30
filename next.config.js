@@ -1,4 +1,5 @@
 const path = require('path');
+const withPWA = require('next-pwa')
 
 module.exports = {
   sassOptions: {
@@ -9,6 +10,9 @@ module.exports = {
   },
   env:{
     id:'local'
+  },
+  pwa:{
+    dest:'public',
   }
 }
 

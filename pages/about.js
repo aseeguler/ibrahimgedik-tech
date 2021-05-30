@@ -23,12 +23,15 @@ function About({ data }) {
           make use of modern web technologies to build websites that look
           awesome.
           <br /> 
-          I'm currently living in Istanbul, Turkey and developing web apps at <a rel="noopener" href="https://www.beranet.com.tr/" aria-label="My Company" className="note">Beranet</a>
+          I'm currently living in Istanbul, Turkey and developing things at <a rel="noopener" href="https://www.beranet.com.tr/" aria-label="My Company" className="note">Beranet</a>
           <br />
 
         </p>
         <div className="divider"></div>
         <h1 className="photos-heading">Photos</h1>
+        <p className="photos-description">
+        I'm listing the photos I took and thought you'd like here, you can check out my <a href="https://vsco.co/ibrahimgedik/gallery" aria-label="İbrahim Gedik Vsco.co Account" rel="noopener" className="vsco" target="_blank">Vsco.co</a> account to see more.
+        </p>
         <div className="photos">
           {data.map((item) => (
             <div className="photo" key={item.id}>

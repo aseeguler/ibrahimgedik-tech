@@ -13,6 +13,9 @@ function Home({data}) {
       <div className="divider"></div>
     </div>
     <Projects  />
+    <div className="container">
+      <div className="divider"></div>
+    </div>
   </Context.Provider>
   )
 }

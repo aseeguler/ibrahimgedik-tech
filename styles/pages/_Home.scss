@@ -9,7 +9,6 @@
     }
     &-title{
         font-weight: 400;
-        font-weight: 300;
     }
     &-subtitle{
         letter-spacing: 2px;
@@ -35,7 +34,7 @@
       }
     &-description{
         font-weight: 400;
-        letter-spacing: .5px;
+        letter-spacing: .7px;
         line-height: 1.5;
     }
 }
@@ -51,40 +50,25 @@
         margin-bottom: 1rem;
     }
     .project-card{
-        margin: 2rem 0;
+        margin: 1rem 0;
         border-radius: 5px;
         &-container{
             position: relative;
         }
         &-title{
             font-weight:400;
+            letter-spacing: .8px;
         }
         &-description{
             margin: 1rem 0;
             color: $lightGreen;
-            letter-spacing: .5px;
+            letter-spacing: .8px;
+            line-height: 1.5;
         }
-        &-tags{
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
-            .badge{
-                display: block;
-                padding: 0.5rem 1rem;
-                border-radius: 5px;
-                &:nth-child(1){
-                    background: #3498db;
-                }
-                &:nth-child(2){
-                    background: #9b59b6;
-                }
-                &:nth-child(3){
-                    background: #f1c40f;
-                }
-                &:nth-child(4){
-                    background: #e74c3c;
-                }
-            }
+        &-date{
+            color: rgba(250, 249, 193, 1);
+            font-weight: 300;
+            letter-spacing: .75px;
         }
         &-link{
             display: block;

@@ -1,28 +1,31 @@
-import React from 'react'
+import React,{useContext} from 'react'
 import {AiFillGithub, AiOutlineLink} from 'react-icons/ai'
-import Projects from '../data/projects'
+import {Context} from 'config/Context'
+import moment from 'moment'
 
 
-function ProjectCard() {
-    return (
+function ProjectCard() {  
+  const {data} = useContext(Context);
+  const convertRelativeTime = (date) => {
+    return moment(date).fromNow();
+}
+  return (
         <>
-        {Projects.map((project) => (
-            <div className="project-card" key={project.id}>
+        {data.map((project, index) => (
+            <div className="project-card" key={index}>
             <div className="project-card-container">
               <div className="project-card-link">
-                <a href="" className="github-link">
+                <a href={project.Github} className="github-link">
                 <AiOutlineLink color="#fff" size={30} />
                 </a>
-              <a href="" className="demo-link">
+              <a href={project.Demo} className="demo-link">
                 <AiFillGithub color="#fff" size={30} />
                 </a>
               </div>
-                <h4 className="project-card-title">{project.name}</h4>
-                <p className="project-card-description">{project.description}</p>
-                <div className="project-card-tags">
-                    {project.tags.map((tag, index) => (
-                        <span key={index} style={{background:`${tag.bgColor}`, color:`${tag.color}`}} className="badge">{tag.name}</span>
-                    ))}
+                <h4 className="project-card-title">{project.Name}</h4>
+                <p className="project-card-description">{project.Description}</p>
+                <div className="project-card-date">
+                  {convertRelativeTime(project.Created)}
                 </div>
             </div>
         </div>
@@ -30,4 +33,6 @@ function ProjectCard() {
         </>
     )
 }
+
+
 export default ProjectCard

@@ -51,7 +51,6 @@
                 justify-content: start;
                 padding-top: 6rem;
                 height: 100vh;
-                gap: 8%;
                 width: 100%;
                 background: $veryDarkGreen;
                 transform: translateY(-1000px);
@@ -63,6 +62,7 @@
                 }
             }
             .nav-item{
+                margin: 1.1rem 0;
                 .nav-link{
                     color: #fff;
                     padding: 0.6rem 1rem;

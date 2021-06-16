@@ -24,19 +24,3 @@ const nextConfig = (phase) => {
 }
 
 module.exports = (phase) => withPWA(nextConfig(phase))
-
-// module.exports = {
-//   sassOptions: {
-//     includePaths: [path.join(__dirname, 'styles')],
-//   },
-//   images: {
-//     domains: ['dl.airtable.com']
-//   },
-//   env:{
-//     id:'local'
-//   },
-//   pwa:{
-//     dest:'public',
-//   }
-// }
-

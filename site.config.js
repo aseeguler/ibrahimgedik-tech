@@ -1,6 +1,6 @@
 module.exports = {
-    title:'İbrahim Gedik',
-    description:'Software Developer',
+    title:'İbrahim Gedik - Software Developer',
+    description:'Software Developer, Javascript enthusiast.',
     lang:'en',
     siteUrl:'https://ibrahimgedik.tech',
     author:{
@@ -8,10 +8,10 @@ module.exports = {
         name:'İbrahim Gedik'
     },
     social:{
-        vsco:'',
-        instagram:'',
-        twitter:'',
-        github:'',
-        linkedin:'',
+        vsco:'https://vsco.co/ibrahimgedik',
+        instagram:'https://www.instagram.com/ibrahimxgedik/',
+        twitter:'https://twitter.com/ibrahimgediktr',
+        github:'https://github.com/ibrahimgediktr',
+        linkedin:'https://www.linkedin.com/in/ibrahimgedik',
     }
 }

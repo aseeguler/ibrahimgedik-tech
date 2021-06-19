@@ -5,13 +5,16 @@ function Navigation() {
   const [toggle, setToggle] = useState(false);
   const navList = useRef(null);
   const navbar = useRef(null);
+  const toggleBar = useRef(null)
 
   const router = useRouter();
 
   const handleClick = () => {
     setToggle(!toggle);
     const list = navList.current;
+    const bar = toggleBar.current;
     list.classList.toggle("nav-active");
+    bar.classList.toggle('nav-active');
     document.body.classList.toggle('nav-active');
   };
 
@@ -56,9 +59,9 @@ function Navigation() {
             </a>
           </li>
         </ul>
-        <button className="bars" onClick={handleClick} aria-label="Mobile Menu Button">
-          <div className="bar"></div>
-          <div className="bar"></div>
+        <button className="bars" onClick={handleClick} ref={toggleBar} aria-label="Mobile Menu Button">
+          <div className="bar bar-1"></div>
+          <div className="bar bar-2"></div>
         </button>
       </div>
     </nav>

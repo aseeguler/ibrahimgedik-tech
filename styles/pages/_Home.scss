@@ -51,9 +51,8 @@
     flex-direction: column;
   }
   &-heading {
-    margin-bottom: 1rem;
+    margin-bottom: .75rem;
     font-weight: bolder;
-    // margin-bottom: 2rem;
   }
   &-description {
     font-weight: 400;
@@ -63,8 +62,6 @@
   }
   .music-card {
     margin: 1rem 0;
-    // border-left: 1px dashed rgba(199, 201, 88, .2);
-    // padding-left: 1rem;
     &-container {
       position: relative;
       display: flex;

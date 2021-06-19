@@ -25,6 +25,7 @@
             border-radius: 5px;
             padding: 0.1rem .25rem;
             z-index: 3;
+            transition: all .3s ease-in-out;
             @media (max-width:768px){
                 display: block;
             }
@@ -34,6 +35,15 @@
                 background: #faf9c1;
                 margin: .5rem 0;
                 border-radius: 4px;
+                transition: all .3s ease-in-out;
+            }
+            &.nav-active{
+                .bar-1{
+                    transform:rotate(-45deg) translate(-6px, 1px);
+                }
+                .bar-2{
+                    transform: rotate(45deg) translate(-7px, -3px);
+                }
             }
         }
         .nav-list{

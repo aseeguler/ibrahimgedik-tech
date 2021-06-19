@@ -1,7 +1,11 @@
 import React from "react";
-import Footer from "./Footer";
-import Navigation from "./Navigation";
+import dynamic from 'next/dynamic'
 import {motion} from 'framer-motion'
+
+const Navigation = dynamic(() => import('./Navigation'));
+const Footer = dynamic(() => import('./Footer'));
+
+
 
 function Layout({ children }) {
   return (

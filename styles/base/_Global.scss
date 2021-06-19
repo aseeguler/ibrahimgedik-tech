@@ -10,6 +10,10 @@ body{
     color: $white;
     overflow-x: hidden;
     letter-spacing: .3px;
+    font-size: 15px;
+    &.nav-active{
+        overflow: hidden;
+    }
 }
 
 a{
@@ -22,6 +26,7 @@ li{
 
 main{
     padding-top:6rem;
+    min-height: 60vh;
 }
 
 .container {

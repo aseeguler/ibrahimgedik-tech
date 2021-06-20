@@ -29,6 +29,7 @@ function Bookmarks({data}) {
            </p>
            <BookmarksSelect handleFilter={handleFilter} filter={filter} />
            <BookmarkList bookmarks={filterByCategory(bookmarks)} />
+           <div className="divider"></div>
         </div>
    </section>
     )
@@ -39,10 +40,12 @@ export async function getStaticProps(){
 
     const ui = data.filter((c) => c.Category === 'UI')
     const pw = data.filter((c) => c.Category === 'Personal Websites')
+    const rd = data.filter((c) => c.Category === 'Reading')
+
 
     return {
         props: {
-            data : [...ui, ...pw]
+            data : [...ui, ...pw, ...rd]
         },
         revalidate: 600,
     }

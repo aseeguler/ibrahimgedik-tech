@@ -19,18 +19,14 @@ function About({ data }) {
           />
         </div>
         <p className="about-description">
-          I'm a passionate self-taught <a href="https://www.linkedin.com/in/ibrahimgedik/" aria-label="İbrahim Gedik Linkedin Account" className="note">Software Developer</a> and Management Information Systems student based in Istanbul, Turkey. I'm interested in web technologies. I tend to
+          I'm a passionate self-taught <a href="https://www.linkedin.com/in/ibrahimgedik/" aria-label="İbrahim Gedik Linkedin Account" className="note">Software Developer</a>, Technology enthusiast and Management Information Systems student. I'm very interested in topics such as front-end technologies and photography. I tend to
           make use of modern web technologies to build websites that look
-          awesome.
-          <br /> 
-          I'm currently living in Istanbul, Turkey and developing things at <a rel="noopener" href="https://www.beranet.com.tr/" aria-label="My Company" className="note">Beranet</a>
-          <br />
-
+          awesome. When I'm not coding, I take photos, watch movies and enjoying time with my friends. I'm currently living in Istanbul, Turkey and developing things at <a rel="noopener" href="https://www.beranet.com.tr/" aria-label="My Company" className="note">Beranet</a> as a Front-end Developer
         </p>
         <div className="divider"></div>
         <h1 className="photos-heading">Photos</h1>
         <p className="photos-description">
-        I'm listing the photos I took and thought you'd like here, you can check out my <a href="https://vsco.co/ibrahimgedik/gallery" aria-label="İbrahim Gedik Vsco.co Account" rel="noopener" className="vsco" target="_blank">Vsco.co</a> account to see more.
+        I'm listing the photos I took and thought you'd like here, you can check out my <a href="https://vsco.co/ibrahimgedik/gallery" aria-label="İbrahim Gedik Vsco.co Account" rel="noopener" className="vsco note" target="_blank">Vsco.co</a> account to see more.
         </p>
         <div className="photos">
           {data.map((item) => (
@@ -49,6 +45,7 @@ function About({ data }) {
             </div>
           ))}
         </div>
+        <div className="divider"></div>
       </div>
     </section>
   );

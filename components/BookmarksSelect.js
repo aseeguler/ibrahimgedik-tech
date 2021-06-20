@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
+import {AiFillCaretDown, AiFillCaretUp} from 'react-icons/ai'
 
 const options = [
-    'Personal Websites', 'UI'
+    'Personal Websites', 'UI', 'Reading'
 ]
 
 function BookmarksSelect(props) {
@@ -25,8 +26,14 @@ function BookmarksSelect(props) {
                     <div className="select-box-selected-item">
                         {selectedItem === null ? '' : selectedItem}
                     </div>
+                    <div className="arrow">
+                        {showItems ? <AiFillCaretUp size={20} /> : <AiFillCaretDown size={20} />}
+                    </div>
                 </div>
-                <div className="select-box-items" style={{display: showItems ? 'block' : 'none'}}>
+                <div 
+                className="select-box-items" 
+                style={{display: showItems ? 'block' : 'none'}}
+                >
                     {options.map((bookmark,index) => (
                         <div 
                         key={index}

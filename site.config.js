@@ -1,6 +1,6 @@
 module.exports = {
     title:'İbrahim Gedik - Software Developer',
-    description:'Software Developer, Amateur Photographer and Dreamer based in Istanbul, Turkey',
+    description:'Software Developer and Amateur Photographer based in Istanbul, Turkey',
     lang:'en',
     siteUrl:'https://ibrahimgedik.tech',
     author:{

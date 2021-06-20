@@ -21,7 +21,9 @@ function About({ data }) {
         <p className="about-description">
           I'm a passionate self-taught <a href="https://www.linkedin.com/in/ibrahimgedik/" aria-label="İbrahim Gedik Linkedin Account" className="note">Software Developer</a>, Technology enthusiast and Management Information Systems student. I'm very interested in topics such as front-end technologies and photography. I tend to
           make use of modern web technologies to build websites that look
-          awesome. When I'm not coding, I take photos, watch movies and enjoying time with my friends. I'm currently living in Istanbul, Turkey and developing things at <a rel="noopener" href="https://www.beranet.com.tr/" aria-label="My Company" className="note">Beranet</a> as a Front-end Developer
+          awesome. When I'm not coding, I take photos, watch movies and enjoying time with my friends.
+          <br />
+          I'm currently living in Istanbul, Turkey and developing things at <a rel="noopener" href="https://www.beranet.com.tr/" aria-label="My Company" className="note">Beranet</a> as a Front-end Developer
         </p>
         <div className="divider"></div>
         <h1 className="photos-heading">Photos</h1>

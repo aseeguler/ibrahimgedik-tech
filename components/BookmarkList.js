@@ -7,7 +7,7 @@ function BookmarkList(props) {
     return (
         <div className="bookmarks-list">
             {props.bookmarks.map((bookmark) => (
-                <a href={bookmark.Notes} key={bookmark.id} className="bookmarks-card">
+                <a href={bookmark.Notes} key={bookmark.id} className="bookmarks-card" rel="noopener">
                     <span className="bookmarks-card-date">{convertRelativeTime(bookmark.Created)}</span>
                     <span className="bookmarks-card-name">{bookmark.Name}</span>
                 </a>

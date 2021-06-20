@@ -30,11 +30,17 @@
       background: transparent;
       box-shadow: 0px 0px 5px -1px rgba(250, 249, 193, 1);
       cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       &:hover {
         box-shadow: 0px 0px 5px 0px rgb(255, 253, 156);
       }
       .select-box-selected-item{
           font-size: 1rem;
+      }
+      .arrow{
+        line-height: 0;
       }
     }
     &-items {

@@ -11,6 +11,7 @@ function About({ data }) {
           <NextImage
             src="/static/img/ibrahim-gedik.jpg"
             width="115px"
+            kmerhaba
             height="115px"
             objectFit="cover"
             loading="lazy"
